@@ -1,0 +1,72 @@
+body{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.whole{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN4EuCRD-bu18UYqwU2lM9ocbaKM8MXT-NHg&s) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40%;
+    background-position: right;
+
+   
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 200px;
+}
+.text{
+    text-align: left;
+    font-size: xx-large;
+}
+#text{
+    font-size: x-large;
+}
+.be{
+  
+}
+.statement{
+    display: flex;
+    gap: 400px;
+}
+.pic{
+    display: flex;
+    gap: 400px;
+}
+.image{
+    display: flex;
+    gap: 200px;
+}
+.say{
+    display: flex;
+    gap: 400px;
+}
+.intrest{
+    display: flex;
+    gap:400px;
+}
+.lexa{
+    font-size:x-large;
+}
+.bob{
+    font-size: x-large;
+}
+.picture{
+    display: flex;
+    gap:300px;
+}
+.end{
+    /* display: flex;
+    gap: 300px; */
+    font-size: xx-large;
+    text-align: center;
+    background-color: #e9fafc;
+}
+button{
+font-size:xx-large;
+}
+.footer{
+    display: flex;
+}
