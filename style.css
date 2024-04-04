@@ -1,15 +1,23 @@
 body{
     margin-left: 12%;
     margin-right: 12%;
+    background-color: aqua;
 }
-.whole{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN4EuCRD-bu18UYqwU2lM9ocbaKM8MXT-NHg&s) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 40%;
-    background-position: right;
+  
+.vet{
+    color: red;
+    font-size: x-large;
+}
 
-   
+#word{
+    display: flex;
+    gap: 300px;
+}
+.word{
+    font-size: x-large;
+}
+.wod{
+    font-size: x-large;
 }
 
 .navbar{
@@ -20,6 +28,8 @@ body{
 .text{
     text-align: left;
     font-size: xx-large;
+    display: flex;
+    gap: 200px;
 }
 #text{
     font-size: x-large;
@@ -29,11 +39,15 @@ body{
 }
 .statement{
     display: flex;
-    gap: 400px;
+    gap: 300px;
+    font-size: large;
+    white-space: nowrap;
 }
 .pic{
     display: flex;
-    gap: 400px;
+    gap: 300px;
+    font-size: large;
+    white-space: nowrap;
 }
 .image{
     display: flex;
@@ -58,15 +72,140 @@ body{
     gap:300px;
 }
 .end{
-    /* display: flex;
-    gap: 300px; */
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
     background-color: #e9fafc;
 }
 button{
-font-size:xx-large;
+font-size:x-large;
+color: white;
+background-color: skyblue;
+border-radius: 18%;
+}
+#footer{
+    display: flex;
+    gap: 200px;
+
 }
 .footer{
-    display: flex;
+    list-style: none;
 }
+#high{
+    font-size: x-large;
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    white-space: nowrap;
+   
+    
+}
+.up{
+    background-color: white;
+    color: skyblue;
+    border-radius: 5%;
+    padding-right:9%;
+}
+.best{
+    font-size: x-large;
+}
+
+@media screen and (min-width: 375px) and (max-width: 880px) {
+    .vet{
+        color: red;
+        font-size: large;
+        flex-wrap: wrap;
+    }
+    
+    #word{
+        flex-wrap: wrap;
+    }
+    .word{
+        flex-wrap: wrap;
+    }
+    .wod{
+        font-size:large;
+    }
+    
+    .navbar{
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    .text{
+        text-align: left;
+        font-size: large;
+        flex-wrap: wrap;
+        width: 180%;
+        
+    }
+    #text{
+        font-size:large;
+        flex-wrap: wrap;
+    }
+    .be{
+      
+    }
+    .statement{
+        flex-wrap: wrap;
+        font-size: large;
+    }
+    .pic{
+        font-size: large;
+        flex-wrap: wrap;
+    }
+    .image{
+        flex-wrap: wrap;
+    }
+    .say{
+        flex-wrap: wrap;
+    }
+    .intrest{
+        flex-wrap: wrap;
+    }
+    .lexa{
+        font-size:large;
+    }
+    .bob{
+        font-size: large;
+    }
+    .picture{
+        flex-wrap: wrap;
+    }
+    .end{
+        font-size: large;
+        text-align: center;
+        background-color: #e9fafc;
+        flex-wrap: wrap;
+    }
+    button{
+    font-size:large;
+    color: white;
+    background-color: skyblue;
+    }
+    #footer{
+        flex-wrap: wrap;
+    
+    }
+    .footer{
+        list-style: none;
+    }
+    #high{
+        font-size:large;
+        flex-wrap: wrap;
+        align-items: center;
+        white-space: nowrap;
+       
+        
+    }
+    .up{
+        background-color: white;
+        color: skyblue;
+    flex-wrap: wrap;
+    }
+    .best{
+        font-size: large;
+        flex-wrap: wrap;
+    }  
+}
+
+
+
